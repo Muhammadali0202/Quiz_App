@@ -5,3 +5,4 @@ document.addEventListener("DOMContentLoaded", function() {
   const score = sessionStorage.getItem("score");
   resultDiv.innerHTML = "<h2>Your score: " + score + "/5</h2>";
 });
+
