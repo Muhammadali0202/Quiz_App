@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     formData.forEach((value, key) => {
       // Check if the selected answer matches the correct answer
-      if (key === "q1" && value === "2") {
+      if (key === "q1" && value === "1") {
         score++;
       } else if (key === "q2" && value === "2") {
         score++;
